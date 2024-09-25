@@ -1,0 +1,151 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f9;
+}
+
+header {
+    text-align: center;
+    padding: 4em;
+    background-color: white;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.nav ul li {
+    margin-right: 20px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.intro h1 {
+    margin-top: 1em;
+    font-size: 2.5em;
+    color: #333;
+}
+
+.highlight {
+    color: #6ac174;
+    font-weight: bold;
+}
+
+.intro p {
+    color: #555;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.buttons {
+    margin-top: 2em;
+}
+
+.talk-btn, .work-btn {
+    padding: 10px 25px;
+    margin-right: 10px;
+    border: none;
+    background-color: #6ac174;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.talk-btn:hover, .work-btn:hover {
+    background-color: #4b9d52;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2em;
+    padding: 4em;
+    background-color: #f8f9fa;
+}
+
+.project-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+}
+
+.project-card h3 {
+    margin-top: 0;
+    color: #333;
+    font-size: 1.5em;
+}
+
+.project-card p {
+    color: #555;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.view-btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.view-btn:hover {
+    background-color: #0056b3;
+}
+
+.skills {
+    text-align: center;
+    padding: 3em;
+    background-color: #f4f4f9;
+    border-top: 2px solid #e0e0e0;
+}
+
+.skills h3 {
+    font-size: 1.8em;
+    color: #333;
+}
+
+.skills p {
+    color: #555;
+    font-size: 1.1em;
+    margin: 0.5em 0;
+}
+
+footer {
+    text-align: center;
+    padding: 2em;
+    background-color: #6ac174;
+    color: white;
+    border-top: 2px solid #4b9d52;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
